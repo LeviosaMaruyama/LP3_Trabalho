@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Blair</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-image: url('https://c.tenor.com/BNTFsT81KOsAAAAd/phasmophobia.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fantasmas</h1>
+    </header>
+    
+    <main class="grid-container">
+        <a href="Banshee.html" class="grid-item"><img src="BlairSite/image (11).webp" alt="Imagem 1"></a>
+        <a href="Demon.html" class="grid-item"><img src="BlairSite/image (6).webp" alt="Imagem 2"></a>
+        <a href="Faejkur.html" class="grid-item"><img src="BlairSite/image (2).webp" alt="Imagem 3"></a>
+        <a href="Harrow.html" class="grid-item"><img src="BlairSite/image (10).webp" alt="Imagem 4"></a>
+        <a href="Lament.html" class="grid-item"><img src="BlairSite/image (14).webp" alt="Imagem 5"></a>
+        <a href="Mare.html" class="grid-item"><img src="BlairSite/image (8).webp" alt="Imagem 6"></a>
+        <a href="Nook.html" class="grid-item"><img src="BlairSite/image (7).webp" alt="Imagem 7"></a>
+        <a href="Poltergeist.html" class="grid-item"><img src="BlairSite/image (9).webp" alt="Imagem 8"></a>
+        <a href="Revenant.html" class="grid-item"><img src="BlairSite/image (1).webp" alt="Imagem 9"></a>
+        <a href="Shade.html" class="grid-item"><img src="BlairSite/image (3).webp" alt="Imagem 10"></a>
+        <a href="Spirit.html" class="grid-item"><img src="BlairSite/image (16).webp" alt="Imagem 11"></a>
+        <a href="Strigoi.html" class="grid-item"><img src="BlairSite/image.webp" alt="Imagem 12"></a>
+        <a href="Vuult.html" class="grid-item"><img src="BlairSite/image (13).webp" alt="Imagem 13"></a>
+        <a href="Wraith.html" class="grid-item"><img src="BlairSite/image (15).webp" alt="Imagem 14"></a>
+        <a href="Yama.html" class="grid-item"><img src="BlairSite/image (5).webp" alt="Imagem 15"></a>
+        <a href="Yurei.html" class="grid-item"><img src="BlairSite/image (12).webp" alt="Imagem 16"></a>
+        <a href="ZoZo.html" class="grid-item"><img src="BlairSite/image (4).webp" alt="Imagem 17"></a>
+    </main>
+</body>
+</html>
