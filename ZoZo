@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zozo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #350000;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #350000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #350000;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Zozo</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">Digitais</span>, <span class="evidence">EMF 5</span> e <span class="evidence">Spirit Box</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>O ZoZo é um fantasma muito ativo que fica irritado quando os jogadores interagem com o Spirit Board. Ele tem um limite de sanidade próximo ao de um demônio. <span class="evidence">Este fantasma também tem uma habilidade especial onde há 50% de chance de anular a resposta do Spirit Board a cada uso. As letras e números ficarão vermelhos, e se você fizer perguntas ao Spirit Board ou tentar dizer "Bye" ou "goodbye" para desativá-lo, ele continuará soletrando "ZoZo".</span> Isso inevitavelmente causará uma caçada forçada, apenas se você tentar sair.
+
+                <br><br>Nota: O ZoZo pode aparecer em rodadas sem Ouija presente <br><br>
+                
+                Durante as caçadas, <span class="evidence">o ZoZo é geralmente mais rápido do que a velocidade média. No entanto, se um jogador olhar para ele, o ZoZo diminuirá significativamente.</span> <br><span class="evidence">Olhar fixamente para este fantasma sem parar por muito tempo fará com que ele entre em um estado de raiva, representado por um rugido de raiva, que desencadeia um aumento espontâneo na velocidade que dura cerca de dez segundos. Este grito é visivelmente alto e pode ser uma indicação clara do tipo fantasma.</span></p>
+</div>
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Aqueles que têm o azar de encontrar um demônio ZoZo estão condenados a passar por um mundo de tormento. Este fantasma gosta especialmente do Ouija e sabotará todas as tentativas de usá-lo.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Zozo são os fantasmas mais perigosos de se encontrar. Eles têm uma grande chance de anular a resposta do Spirit Board, impedindo que alguém o feche <span class="evidence">(caso você use uma Ouija e não dizer "Bye" após usá-la, pode começar uma caçada)</span>. Eles também são conhecidos por ficarem facilmente enfurecidos ao olhar para eles. </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Zozos tendem a se revelar bem facilmente. Eles são muito lentos quando olhados diretamente.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Pode anular a resposta do Ouija. Ao usar um Ouija, ele pode fazer as letras ficarem vermelhas e responder respostas aleatoriamente com "ZoZo"</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

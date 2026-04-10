@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuult</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background: linear-gradient(to right, yellow, black, yellow, black, yellow);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: linear-gradient(to right,black, rgb(167, 167, 30), black);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: linear-gradient(to right, yellow, black, yellow, black, yellow);
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Vuult</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">EMF 5</span>, <span class="evidence">Orbs</span> e <span class="evidence">SLS</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>Os jogadores podem desencadear mais carga através do uso de equipamento eletrônico, e ter uma carga muito alta traz desconforto ao Vuult, o que consequentemente faz com que esse fantasma cresça em agressividade. Esse nível de agressão permite que o Vuult cace com uma sanidade muito maior, mas ele também tentará eliminar o máximo de fontes de eletricidade possível desligando o disjuntor com mais frequência, desligando as luzes com mais frequência e, às vezes, até mesmo destruindo completamente o EMF Reader para retornar a esse meio termo.</p>
+    <p>Cada peça de equipamento elétrico perto da sala atual dos Vuults aumentará a carga em dois pontos.
+        Cada jogador presente perto de sua sala atual adiciona um ponto.
+        Ligar o gerador adiciona cinco pontos.</p>
+    <p><img src="BlairSite/Captura de tela 2025-03-26 200604.png" alt="Tabela"></p></div>
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Conhecido por ser incrivelmente sensível a campos eletromagnéticos, esse fantasma representa uma grande ameaça se estiver cercado por aparelhos eletrônicos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Vuults em "vultage" alta se tornam incrivelmente ameaçadores. Eles podem caçar em qualquer sanidade, desde que tenham carga suficiente.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Se não houver aparelhos eletrônicos por perto e o disjuntor estiver desligado, o Vuult fica incrivelmente dócil e não conseguirá caçar.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Pode quebrar o leitor EMF se estiver com carga alta o suficiente.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

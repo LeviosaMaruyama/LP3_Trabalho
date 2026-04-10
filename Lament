@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lament</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #07cc00;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #07cc00;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #07cc00;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Lament</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">EMF 5</span>, <span class="evidence">Spirit Box</span> e <span class="evidence">Orbs</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>O Lament possui a habilidade de enganar suas presas, tornando-as vulneráveis ​​às suas atividades paranormais. Laments nunca aceleram, mesmo se um jogador estiver em sua linha de visão (LoS). Além disso, ele exibe um comportamento notável de acabar com os efeitos de interrupção eletrônica e se tornar mais silencioso com seus passos perto da conclusão de uma caçada. Ao se acalmar, um Lament perderá o batimento cardíaco e os principais passos de pisada, e em vez disso fará apenas sons menores de passos, como se fosse um colega jogador andando por aí.</p>
+    <p><span class="evidence">A van normalmente pisca suas luzes traseiras durante toda a caçada (Lament é a exceção)</span></p>
+        </div>
+
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Embora não sejam tão ameaçadores durante os ataques, os Laments são conhecidos por serem bem problemáticos e pegarem as presas desprevenidas. Tenha cuidado com este, e espere o inesperado.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Pode acabar com os efeitos de perturbação e se tornar mais silenciosas perto do fim de uma caçada.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Os laments não aceleram ao ver uma vítima.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Ao realizar um jumpscare, há uma pequena chance de que esse fantasma possa drenar a stamina de todos os jogadores próximos. Perto do fim de uma caçada, faz com que seus passos sejam mais silenciosos,o barulho de batimento cardíaco some e eletrônicos como EMF voltem ao estado normal</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

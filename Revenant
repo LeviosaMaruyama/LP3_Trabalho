@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Revenant</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">EMF 5</span>, <span class="evidence">Escrita</span> e <span class="evidence">Digitais</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>O Revenant exibe uma natureza dupla em seu comportamento. Quando não está em perseguição, ele se move em um ritmo excepcionalmente lento. No entanto, quando um jogador está em sua linha de visão, ele acelera significativamente, tornando difícil escapar. A velocidade aumentada do fantasma durante as caçadas representa uma séria ameaça, exigindo cautela ao tentar atordoá-lo ou fazer um loop.</p>
+    </div>
+
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Um fantasma muito lento, mas violento. Para piorar as coisas, sua sede de sangue desencadeia velocidades extremas ao perseguir presas em caçadas</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Os Revenants aceleram significativamente no momento em que avistam uma vítima.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Quando não há nenhuma vítima à vista, os Revenants vagam muito lentamente.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Fica extremamente rápido quando vê uma vítima </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

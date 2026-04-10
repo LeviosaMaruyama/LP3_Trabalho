@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faejkur</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #00cc66;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #00cc66;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #00cc66;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Faejkur</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">EMF 5</span>, <span class="evidence">Escrita</span> e <span class="evidence">Temperatura Negativa</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>Após ele ouvir um som, poderá imitá-lo pelos próximos 2 minutos, é possivel distinguir o som real do imitado pois o gerado pelo Faejkur é um pouco mais grave</p>
+            <p>Além disso, você tem a chance de capturar a risada única do Faejkur usando o <span class="highlight">Microfone Parabólico</span> enquanto ele está perto o suficiente para atrapalhar o equipamento, no entanto, a risada única é considerada muito silenciosa e sutil para a maioria das pessoas. <br> <a href="https://www.youtube.com/clip/Ugkx5jTaMpTV1R6lYlJie2cStUtZmH2oyLXn" target="_blank"><span class="evidence">Ouvir Riso</span></a></p>
+            
+          
+           
+         </div>   
+    
+
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Faejkur são fantasmas que aprenderam a imitar o som, a ponto de ficar complicado saber o que é real e o que não é.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Faejkur são capazes de replicar sons familiares. Em caçadas, passos falsos podem ser ouvidos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>A habilidade desse fantasma faz com que às vezes seja fácil se expor.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Perto do fim de uma Caçada, possui uma habilidade interessante que lhe permite imitar passos falsos em uma trajetória completamente diferente da sua. </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

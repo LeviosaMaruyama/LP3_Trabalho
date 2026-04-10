@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harrow</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #0036cc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #0036cc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #0036cc;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Harrow</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">SLS</span>, <span class="evidence">Escrita</span> e <span class="evidence">Orbs</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>Por serem tão territoriais, os Harrows se tornam mais agressivos para cada jogador que entra em sua sala, encorajando mais caçadas. Além disso, a atividade geral desse fantasma defensivo também aumenta sob as mesmas condições, então fique de olho no pico de interações e eventos fantasmas quando estiver por perto!</p>
+            <p>Ao caçar, a <span class="evidence">velocidade de um Harrow muda de acordo com o quão longe ou perto ele está de sua sala favorita. Harrows se tornam cada vez mais rápidos quanto mais perto eles estão da sala fantasma</span>, correspondendo a velocidades quase comparáveis ​​a um Revenant na linha de visão (LoS). No entanto, se o Harrow se aventurar muito longe de sua sala, ele eventualmente diminuirá a velocidade</p>
+    </div>
+
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Harrows são, diferentemente dos outros fantasmas, muito centralizados e leais ao seu único cômodo favorito. Eles farão qualquer coisa para defender seu território.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Harrows são mais rápidos quanto mais perto estiverem de seu cômodo favorito. Eles serão mais agressivos para cada pessoa perto dele.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Harrows ficam muito lentos quando estão longe de seu cômodo favorito.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Este fantasma é o único fantasma incapaz de vagar por outras salas e é tão teimoso que a carta de tarô Carruagem (força o fantasma a ir para a sala que a carta foi puxada) sempre será Joker </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

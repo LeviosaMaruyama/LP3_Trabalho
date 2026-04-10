@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strigoi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #2b8ba8;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #2b8ba8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #2b8ba8;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Strigoi</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">Orbs</span>, <span class="evidence">Digitais</span> e <span class="evidence">EMF 5</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>O Strigoi, um fantasma do folclore romeno, ressuscitou do túmulo. Strigoi são bem conhecidos por seus poderes aproveitados de fontes de água. Strigoi são fortalecidos quando perto da água, e ganharão a habilidade durante esse tempo de desaparecer completamente do olho humano ao caçar. Por outro lado, quando não estão em ambientes próximos com uma fonte de água, eles têm mais dificuldade em ficar fora de vista, revelando-se muito mais frequentemente em caçadas por meio de piscadas mais longas (cerca de 2 segundos de intervalo).</p>
+    <p><span class="evidence">Se você fechar uma torneira deixada aberta por um Strigoi, ele poderá iniciar uma caçada imediatamente (independentemente da sua sanidade) com 1/8 (12,5%) de chance, ou realizar uma interação com 1/3 (33,3%) de chance.</span></p></div>
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Vindo do folclore romeno, diz-se que os Strigoi ressuscitaram do túmulo. Eles são capazes de ficar completamente invisíveis e gostam de água.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Os Strigoi são incrivelmente furtivos, pois podem esconder sua aparência física por muito mais tempo. Desligar a água, especialmente, os deixará irritados.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Quando não há água corrente, os Strigoi ficam mais vulneráveis. Eles se tornam muito mais visíveis e fáceis de rastrear.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Às vezes, pode mostrar uma marca única de evidência UV, mostrando quatro dedos em vez de cinco. <img src="BlairSite/strigoihand.webp" alt="HandPrintStrigoi"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yurei</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #896f97;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #896f97;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #896f97;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Yurei</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">Digitais</span>, <span class="evidence">Temperatura Negativa</span> e <span class="evidence">Spirit Box</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>O Yurei é um fantasma que é cego, mas também tem uma audição excepcional, bem como uma atração peculiar por eletrônicos. Ele pode detectar até mesmo o menor dos sons, como um passo silencioso, ou o zumbido de dispositivos eletrônicos, como um leitor EMF. No entanto, você pode tirar vantagem da cegueira deles ficando parado sem nenhum eletrônico ativo na mão quando ele caça. Fazer isso permitirá uma chance de parecer invisível para o Yurei, poupando você da morte certa, desde que você esteja relativamente fora do caminho.</p>
+    <p>Acredita-se que sejam pessoas que morreram tragicamente e cujos espíritos estão impedidos de ter uma vida pacífica após a morte.</p></div>
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Yurei são fantasmas muito misteriosos. Embora não consigam enxergar muito bem, eles sempre ouvirão o menor som de eletrônicos ou passos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Passos e aparelhos eletrônicos barulhentos atrairão os Yureis durante as caçadas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Yurei não consegue enxergar bem e pode errar você se estiver parado.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>Nenhuma</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

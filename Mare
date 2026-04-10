@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mare</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BlairSite/Site-background-dark.webp);
+    background-size: cover;
+    background-position: justify;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #cc00cc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.card {
+    background: #cc00cc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.evidence-section {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.evidence-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.evidence-box img {
+    width: 40px;
+    height: auto;
+}
+
+.highlight {
+    color: #cc00cc;
+    font-weight: bold;
+}
+
+.evidence {
+    color: cyan;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Mare</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <h2>Evidências</h2>
+            <p>Suas evidências são 
+                <span class="evidence">Temperatura Negativa</span>, <span class="evidence">Spirit Box</span> e <span class="evidence">SLS</span>.
+            </p>
+            
+            <h2>Traits</h2>
+            <p>Mares são comumente conhecidas por sua maior atividade no escuro, o que as torna mais propensas a iniciar caças fantasmas quando estão envoltas na escuridão, e elas se tornam menos ativas em ambientes bem iluminados.</p>
+    <p>As Mares também costumam ter uma personalidade levemente agressiva, então tenha isso em mente se você achar que o fantasma pode ser um Demônio ou um ZoZo. <span class="evidence">Dependendo de quão agressiva a Mare que você pegar for, ela pode desligar imediatamente uma luz depois que você ligá-la</span>, mas isso só se o disjuntor estiver ligado no momento, e essa não é uma maneira confiável de determinar o fantasma como uma Mare considerando sua raridade, no entanto, você pode ter sorte e tropeçar nessa habilidade.</p>
+        </div>
+
+        <div class="right-content">
+            <div class="card">
+                <h2>Sobre</h2>
+                <table>
+                    <tr>
+                        <td><strong>Descrição</strong></td>
+                        <td>Mares têm muito medo da luz. Elas são mais ativas e mais perigosas no escuro.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forças</strong></td>
+                        <td>Quando estão no escuro, tendem a espalhar medo em suas vítimas com interações e sustos frequentes.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fraquezas</strong></td>
+                        <td>Quando as luzes do quarto são acesas, Mares demoram mais para aparecer e atacar.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Habilidades</strong></td>
+                        <td>As Mares têm 5% de chance de quebrar todas as luzes da sala ao desligá-las.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
